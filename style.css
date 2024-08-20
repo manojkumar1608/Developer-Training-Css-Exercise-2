@@ -40,22 +40,27 @@
     margin:6px;
     font-size: 16px;
     padding-right: 16px;
+    padding-bottom: 26px;
     border-right: 2px solid #365E32;
     }
-    #mypage-footer{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #5356FF;
-    padding: 12px;
-    color:#F7F9F2;
-    border-radius: 3px;
-    font-size: 28px;
-    font-weight: bold;
+    #mypage-footer {
+        display: flex;
+        height: 150px; 
+        align-items: center;
+        justify-content: center; 
+        flex-direction: column;
+        background-color: #5356FF;
+        padding: 8px; 
+        color: #F7F9F2;
+        border-radius: 3px;
+        font-size: 28px; 
+        font-weight: bold;
+        margin-top: 10px;
     }
-    #contact-info{
-    font-size: 16px;
-    color: #F7F9F2
+    
+    #contact-info {
+        font-size: 16px;
+        color: #F7F9F2;
     }
     
     @media only screen and (max-width: 768px) {
