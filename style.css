@@ -26,6 +26,7 @@
   position: sticky; 
   top: 0; 
   z-index: 1000; 
+  margin-top:8px;
   background-color: var(--bg);
 }
 #mypage_header nav {
