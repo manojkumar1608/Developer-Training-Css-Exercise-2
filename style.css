@@ -11,7 +11,7 @@
   --primary-dark: #EFECEC;
   --secondary: #f1eee8;
   --bg: #180161;
-  --font:  "Rowdies", system-ui;
+  --font: font-family: "Oswald", sans-serif;
 }
 
 #wrapper {
@@ -189,7 +189,7 @@
 
   .hidden {
     display: block;
-    padding: 10px;
+    padding: 5px;
   }
 
   .hidden h4 {
@@ -199,8 +199,8 @@
   #mypage_centerContent main {
     height: auto;
     margin: 0px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 2px;
+    padding: 2px;
   }
 
   .list li {
@@ -254,6 +254,7 @@
 
   .hidden {
     display: block;
+    padding:2px;
   }
 
   .hidden h4 {
@@ -263,8 +264,8 @@
   #mypage_centerContent main {
     height: auto;
     margin: 0px;
-    margin-top: 10px;
-    padding: 10px;
+    margin-top: 0;
+    padding: 0;
   }
 
   /* footer section */
@@ -309,13 +310,14 @@
   }
   .hidden {
     display: block;
+    padding:12px;
   }
 
   #mypage_centerContent main {
     height: auto;
     margin: 0px;
-    margin-top: 15px;
-    padding: 15px;
+    margin-top: 6px;
+    padding: 6px;
   }
 
   /* footer section */
