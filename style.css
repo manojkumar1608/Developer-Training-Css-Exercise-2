@@ -22,7 +22,6 @@
 }
 
 /* Header section */
-
 #mypage_header {
   position: sticky; 
   top: 0; 
@@ -30,13 +29,13 @@
   background-color: var(--bg);
 }
 #mypage_header nav {
-  width: 100%; /* Take up full width inside the header */
+  width: 100%; 
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-dark);
-  box-sizing: border-box; /* Include padding and border in width */
+  box-sizing: border-box; 
 }
 
 .header_name {
@@ -45,7 +44,6 @@
 }
 
 /* content section */
-
 #center_section {
   display: flex;
   font-size: 1.1rem;
@@ -75,7 +73,7 @@
   font-size: 1.3rem;
 }
 
-#mypage_centercontent {
+#mypage_centerContent {
   width: 70%;
   background-color: var(--primary-dark);
 }
@@ -94,7 +92,7 @@
   letter-spacing: 1.5px;
 }
 
-#mypage_centercontent main {
+#mypage_centerContent main {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,12 +102,12 @@
   padding: 20px;
 }
 
-.centercontent {
+.center-content {
   display: flex;
   flex-direction: column;
 }
 
-.centercontent ul {
+.center-content ul {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -181,10 +179,10 @@
     display: none;
   }
 
-  #mypage_centercontent {
+  #mypage_centerContent {
     width: 100%;
   }
-  .centercontent{
+  .center-content{
     border-left:none;
   }
 
@@ -197,7 +195,7 @@
     font-size: 0.6rem;
   }
 
-  #mypage_centercontent main {
+  #mypage_centerContent main {
     height: auto;
     margin: 0px;
     margin-top: 10px;
@@ -246,10 +244,10 @@
     display: none;
   }
 
-  #mypage_centercontent {
+  #mypage_centerContent {
     width: 100%;
   }
-  .centercontent{
+  .center-content{
     border-left:none;
   }
 
@@ -261,7 +259,7 @@
     font-size: 0.7rem;
   }
 
-  #mypage_centercontent main {
+  #mypage_centerContent main {
     height: auto;
     margin: 0px;
     margin-top: 10px;
@@ -302,17 +300,17 @@
     display: none;
   }
 
-  #mypage_centercontent {
+  #mypage_centerContent {
     width: 100%;
   }
-  .centercontent{
+  .center-content{
     border-left:none;
   }
   .hidden {
     display: block;
   }
 
-  #mypage_centercontent main {
+  #mypage_centerContent main {
     height: auto;
     margin: 0px;
     margin-top: 15px;
@@ -344,7 +342,7 @@
     font-size: 0.9rem;
   }
 
-  .centercontent ul {
+  .center-content ul {
     padding: 0px;
   }
   .hidden ul li{
