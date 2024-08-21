@@ -18,17 +18,25 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
 }
 
 /* Header section */
-#mypage_header nav {
-  height: 100px;
+
+#mypage_header {
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
   background-color: var(--bg);
+}
+#mypage_header nav {
+  width: 100%; /* Take up full width inside the header */
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--primary-dark);
-  margin-top: 10px;
+  box-sizing: border-box; /* Include padding and border in width */
 }
 
 .header_name {
@@ -42,6 +50,7 @@
   display: flex;
   font-size: 1.1rem;
   flex-direction: row-reverse;
+  padding-top:1px;
 }
 
 #mypage_leftnav {
@@ -152,6 +161,9 @@
   #wrapper {
     padding: 0 5px;
   }
+  #mypage_header nav {
+    height:60px;
+  }
 
   .header_name {
     font-size: 1.2rem;
@@ -213,6 +225,9 @@
   #wrapper {
     padding: 0 10px;
   }
+  #mypage_header nav {
+    height:60px;
+  }
 
   .header_name {
     font-size: 1.3rem;
@@ -268,6 +283,9 @@
   #wrapper {
     padding: 0 15px;
   }
+  #mypage_header nav {
+    height:60px;
+  }
 
   .header_name {
     font-size: 1.5rem;
@@ -316,6 +334,9 @@
   /* header section */
   .header_name {
     font-size: 1.8rem;
+  }
+  #mypage_header nav {
+    height:60px;
   }
 
   /* content section */
